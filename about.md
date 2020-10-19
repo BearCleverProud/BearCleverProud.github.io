@@ -4,4 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Another minimal style of Jekyll theme for writers.
+I am a final year computer science student at Harbin Institute of Technology. 
+
