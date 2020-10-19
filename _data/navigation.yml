@@ -6,9 +6,11 @@
   url: /categories/
 - title: Tags
   url: /tags/
-- title: More
-  sublinks:
-    - title: CV
-      url: /nimo-markdown-cv/
-    - title: Docs
-      url: /docs/
+- title: CV
+  url: /nimo-markdown-cv/
+#- title: More
+#  sublinks:
+#    - title: CV
+#      url: /nimo-markdown-cv/
+#    - title: Docs
+#      url: /docs/
