@@ -8,5 +8,5 @@ I am a final year computer science student in natural language processing track 
 
 
 
-Because I am currently still a undergraduate student, I try to expose myself to as many fields as possible, so that I can explore the fascinating computer science world and identify which field I am into most. Now I feel that my research interests include natural language processing and artificial intelligence, to be specific, human-like computations, automated-reasoning, knowledge representations, machine translation, text summarisation, dialog bot. 
+Because I am currently still a undergraduate student, I try to expose myself to as many fields as possible, so that I can explore the fascinating computer science world and identify which field I am into most. Now I feel that my research interests include natural language processing and artificial intelligence, to be specific, human-like computations, automated-reasoning, language and knowledge representations, natural language understanding, machine translation, text generations, dialog bot, etc. (This is not a ranked list, I am interested in them all!)
 
