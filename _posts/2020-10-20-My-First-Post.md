@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The First Post ------ About Myself
-Categories: misc
+categories: Self-Intro
 ---
 
 I am a final year computer science student in natural language processing track at Harbin Institute of Technology, China. I was a visiting student at the Johns Hopkins University, USA, where I have done some researches under supervision of Prof. [Philipp Koehn](http://www.cs.jhu.edu/~phi/). Before this, I was a visiting student at the University of Cambridge. 
