@@ -8,5 +8,5 @@ I am currently a second‐year Ph.D. student at the [Department of Computer Scie
 
 
 
-My research interests include Medical Image Analysis (especially Whole Slide Image (WSI) Analysis), Computational Pathology, Computer Vision, Deep Learning. At present, I primarily focus on the following research topics: WSI Representation Learning, Semi‐Supervised Learning for WSI Analysis, Federated Learning for WSI Analysis, Interpretable Models for WSI Analysis, and Data Augmentation for WSI Analysis, *etc*.
+My research interests include Medical Image Analysis (especially Whole Slide Image (WSI) Analysis), Computational Pathology, Computer Vision, Deep Learning. At present, I primarily focus on the following research topics: WSI Representation Learning, Self‐Supervised Learning, Federated Learning, Multi-Modal Learning, Data Augmentations, *etc*., particularly those in WSI Analysis.
 
