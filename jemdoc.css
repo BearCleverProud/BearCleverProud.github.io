@@ -13,15 +13,19 @@ body {
 }
 */
 html {
-  background-color: #eeeeee; 
+  background-color: #eeeeee;
 }
 
-body { 
+* {
+  box-sizing: border-box;
+}
+
+body {
   font-family: Georgia, serif;
   color: #000;
-  background-color: #ffffff; 
+  background-color: #ffffff;
   text-align:left; /* for IE */
-  margin-top: 30px; 
+  margin-top: 30px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -30,6 +34,45 @@ body {
   padding-top: 10px;
   padding-bottom: 30px;
   max-width: 960px;
+}
+
+.news-container {
+  height: 120px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.social-links img {
+  margin-bottom: -3px;
+}
+
+.highlight {
+  color: red;
+  font-style: italic;
+}
+
+.keywords {
+  margin: 0.15rem 0 0.35rem;
+  font-size: 0.95em;
+  font-style: italic;
+  color: #555;
+}
+
+.github-corner {
+  background: #fd6c6c;
+  color: #fff;
+  font-size: 0.85em;
+  padding: 0.45em 0.75em;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.github-corner:hover {
+  border-bottom: none;
+  background: #e85f5f;
 }
 
 #layout-menu {
@@ -359,6 +402,10 @@ table + table {
     margin-top: 1em;
 }
 
+.spacer-row td {
+    height: 1.2em;
+}
+
 tr.heading {
     font-weight: bold;
     border-bottom: 2px solid black;
@@ -366,9 +413,60 @@ tr.heading {
 
 img {
     border: none;
+    max-width: 100%;
+    height: auto;
 }
 
 table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
+}
+
+.footer-extra {
+    text-align: center;
+}
+
+#clustrmaps-widget {
+    margin: 0 auto;
+    min-width: 120px;
+    width: 20%;
+}
+
+@media (max-width: 700px) {
+    body {
+        margin: 0;
+        max-width: none;
+        padding: 12px 16px 24px;
+    }
+
+    #layout-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    table,
+    tbody,
+    tr,
+    td {
+        max-width: 100%;
+    }
+
+    table:first-of-type td,
+    #tbPublications td {
+        display: block;
+        width: auto;
+    }
+
+    #tbPublications td:first-child {
+        padding-top: 0.8em;
+    }
+
+    #tbPublications img {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .github-corner {
+        font-size: 0.75em;
+    }
 }
