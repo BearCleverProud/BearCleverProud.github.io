@@ -37,42 +37,68 @@ body {
 }
 
 .news-container {
-  height: 120px;
+  height: 108px;
   overflow-y: auto;
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin: 20px 0;
+  background: #fafafa;
+  border: 1px solid #dddddd;
+  padding: 8px 10px;
+  margin: 8px 0 16px;
+}
+
+.news-container ul {
+  margin-bottom: 0;
+}
+
+.news-container li {
+  line-height: 1.25;
+  margin-top: 0.45em;
 }
 
 .social-links img {
+  height: 30px;
   margin-bottom: -3px;
+  margin-right: 6px;
+  max-width: none;
+  object-fit: contain;
+  vertical-align: middle;
+  width: 30px;
 }
 
 .highlight {
-  color: red;
-  font-style: italic;
+  background: #fff3e0;
+  border: 1px solid #f0b45d;
+  border-radius: 3px;
+  color: #9a4b00;
+  display: inline-block;
+  font-size: 0.92em;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 1px 5px;
+  white-space: nowrap;
 }
 
 .keywords {
-  margin: 0.15rem 0 0.35rem;
-  font-size: 0.95em;
-  font-style: italic;
-  color: #555;
+  background: #f6f9ff;
+  border-left: 2px solid #7a9bcf;
+  border-radius: 2px;
+  color: #3f4650;
+  line-height: 1.35;
+  margin: 0.35rem 0 0.45rem;
+  padding: 4px 8px;
+  font-size: 0.93em;
+  font-style: normal;
 }
 
-.github-corner {
-  background: #fd6c6c;
-  color: #fff;
-  font-size: 0.85em;
-  padding: 0.45em 0.75em;
-  position: absolute;
-  right: 0;
-  top: 0;
+.topic-label {
+  color: #3f669f;
+  font-weight: bold;
 }
 
-.github-corner:hover {
-  border-bottom: none;
-  background: #e85f5f;
+.research-tagline {
+  color: #4f6f9f;
+  font-size: 0.96em;
+  font-weight: bold;
 }
 
 #layout-menu {
@@ -428,8 +454,16 @@ table.imgtable, table.imgtable td {
 
 #clustrmaps-widget {
     margin: 0 auto;
-    min-width: 120px;
-    width: 20%;
+    min-width: 0;
+    width: 96px;
+}
+
+#clustrmaps-widget canvas,
+#clustrmaps-widget iframe,
+#clustrmaps-widget img,
+#clustrmaps-widget svg {
+    height: auto !important;
+    max-width: 96px !important;
 }
 
 @media (max-width: 700px) {
@@ -466,7 +500,14 @@ table.imgtable, table.imgtable td {
         width: 100%;
     }
 
-    .github-corner {
-        font-size: 0.75em;
+    #clustrmaps-widget {
+        width: 84px;
+    }
+
+    #clustrmaps-widget canvas,
+    #clustrmaps-widget iframe,
+    #clustrmaps-widget img,
+    #clustrmaps-widget svg {
+        max-width: 84px !important;
     }
 }
